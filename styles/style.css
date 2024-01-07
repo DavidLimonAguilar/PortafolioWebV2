@@ -584,6 +584,9 @@ footer{
     .img-acerca img {
         width: 20rem;
     }
+    .elipse {
+        width: 60rem;
+    }
 }
 
 @media (max-width: 500px){
