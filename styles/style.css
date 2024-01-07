@@ -430,7 +430,7 @@ footer{
     width: 40rem;
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1580px){
     .acerca-circulo {
         width: 33%;
     }
