@@ -181,7 +181,7 @@ h1{
 }
 
 .acerca-circulo {
-    width: 43%;
+    width: 60rem;
     background:linear-gradient(to bottom right, rgba(201,97,222,.7)38%, rgba(41,87,163,.7)100%);
     border-radius: 50%;
     display: flex;
@@ -191,6 +191,8 @@ h1{
     height: 90%;
 }
 .acerca-content {
+    min-width: 50%;
+    max-width: 60%;
     padding: 6rem 3rem;
 }
 
@@ -430,12 +432,12 @@ footer{
     width: 40rem;
 }
 
-@media (min-width: 1580px){
+/* @media (min-width: 1580px){
     .acerca-circulo {
         width: 33%;
     }
 
-}
+} */
 
 
 @media (max-width:1200px){
@@ -597,19 +599,30 @@ footer{
     .acerca-circulo {
         width: 100%;
         border-radius: 10%;
-        height: 55rem;
+        height: auto;
+        position: relative;
+    }
+
+    .acerca-content {
+        min-width: 100%;
+    }
+    .acerca-content h2 {
+        text-align: center;
     }
 
     .img-acerca img {
-        width: 20rem;
+        top: 0;
+        right: -10%;
+        position: absolute;
+        width: 10rem;
     }
 
     .stars {
-        height: 80rem;
+        height: 60rem;
     }
 
     .galaxy {
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
 
 .stars {
@@ -625,21 +638,32 @@ footer{
 }
 
 .elipse {
-    width: 60rem;
+    width: 40rem;
 }
 
 .galaxy2{
-    width: 50rem;
+    width: 40rem;
 }
 .logos2 {
-    width: 50rem;
+    width: 40rem;
 }
 
 .logos1 {
-    width: 30rem;
+    width: 25rem;
 }
 .galaxy-1 {
-    width: 25rem;
+    width: 20rem;
+}
+.proyectos div img {
+    max-width: 40rem;
+}
+.description{
+    min-width: 40rem;
+    max-width: 40rem;
+}
+.proyecto-1, .proyecto-2,
+.proyecto-3, .proyecto-4 {
+    padding: 5rem;
 }
 }
 
