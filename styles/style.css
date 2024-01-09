@@ -375,7 +375,7 @@ h1{
     line-height: 2.5rem;
 } 
 .icons-descrip{
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .icons-descrip >a > img{
@@ -385,8 +385,8 @@ h1{
     font-size: 3rem;
 }
 
-.icons-descrip > a {
-    margin-right: 2rem;
+.icons-descrip  a {
+    margin-right: 1rem;
 }
 .contactame-boton {
     width: 100%;
