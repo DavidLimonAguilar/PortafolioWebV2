@@ -8,6 +8,7 @@
 html{
     background-color: #0F103F;
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 header {
